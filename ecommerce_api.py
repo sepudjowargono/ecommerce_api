@@ -13,7 +13,7 @@ import os
 app = Flask(__name__)
 
 # Configure MySQL database connection
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Axm022425!!@localhost/ecommerce_api'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:<password>@localhost/ecommerce_api'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Creating Base Model
